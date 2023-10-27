@@ -10,6 +10,6 @@ Give each keypoint a new attribute named object Id, which is connected to the ob
 ![obj2](/res/obj2.png)
 
 # 3. 3D Map Point Cloud Generation
-For each object detected by Mask-RCNN in each keyframe, generateing the 3D map points based on 2D keypoint with object Id. So that the 3D points in the map are no longer the meanless sparse point, but a part of object point cloud. After we get the point cloud for object, we can achieve more interactions with objects in AI(like AR, Auto Driving).
+For each object detected by Mask-RCNN in each keyframe, generateing the 3D map points based on 2D keypoint with object Id. So that the 3D points in the map are no longer the meanless sparse point, but a part of the object point cloud. After we get the point cloud for objects, we can do more interactions with objects in AI(like AR, Auto Driving).
 ![map](/res/mappoint.png)
-We can see in the image above, red points represent for monitor, green points stand for keyboard, blue points stand for plant and yellow points stanfd for desk.
+We can see in the image above, red points represent the monitor, green points stand for the keyboard, blue points stand for the plant and yellow points stand for the desk.
